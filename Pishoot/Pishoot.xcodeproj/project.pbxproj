@@ -29,9 +29,22 @@
 		E9E398F52CC9242000A5D6BB /* PishootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PishootUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E9E3991C2CC92DCC00A5D6BB /* Exceptions for "Pishoot" folder in "Pishoot" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E9E398DA2CC9241F00A5D6BB /* Pishoot */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E9E398DD2CC9241F00A5D6BB /* Pishoot */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E9E3991C2CC92DCC00A5D6BB /* Exceptions for "Pishoot" folder in "Pishoot" target */,
+			);
 			path = Pishoot;
 			sourceTree = "<group>";
 		};
@@ -399,6 +412,9 @@
 				DEVELOPMENT_TEAM = 74HCH446S4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pishoot/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow your camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to access your galery8ikk8u";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +444,9 @@
 				DEVELOPMENT_TEAM = 74HCH446S4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pishoot/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow your camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to access your galery8ikk8u";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
